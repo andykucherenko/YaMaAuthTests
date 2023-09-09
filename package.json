@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "dependencies": {
+    "chai": "^4.3.8",
+    "cypress": "^13.1.0",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.12.0"
+  },
+  "name": "yamaauthtests",
+  "description": "Тесты на авторизацию YandexMarket",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
