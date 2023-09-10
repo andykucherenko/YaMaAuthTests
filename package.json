@@ -3,8 +3,13 @@
     "test": "npx cypress open"
   },
   "dependencies": {
+    "bluebird": "^3.7.2",
     "chai": "^4.3.8",
+    "check-more-types": "^2.24.0",
     "cypress": "^13.1.0",
+    "debug": "^4.3.4",
+    "execa": "^8.0.1",
+    "lazy-ass": "^2.0.3",
     "mocha": "^10.2.0",
     "selenium-webdriver": "^4.12.0"
   },
@@ -12,7 +17,6 @@
   "description": "Тесты на авторизацию YandexMarket",
   "version": "1.0.0",
   "main": "cypress.config.js",
-  "devDependencies": {},
   "author": "",
   "license": "ISC"
 }
